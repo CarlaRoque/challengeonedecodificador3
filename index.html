@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device width">
+   
+    
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+    <title>Decodificador</title>
+
+</head>
+<body>
+    <header>
+        <img class="logoalura" src="alura-log.png" alt="Logo da alura com a inicial da letra a">
+    </header>
+    <main>
+        <section>
+            <textarea class="input-texto" cols="40" rows="6" placeholder="Digite aqui sua mensagem..."></textarea>
+            <div id="div-desaparece">
+                <img  class="ponto" src="ponto.png" alt="ponto de exclamação"><h6 class="informacao">Apenas letras minúsculas e sem acento.</h6>
+            </div>
+            <div class="botoes">
+                <button class="encriptar" onclick="btnEncriptar()">
+                    Criptografar
+                </button>
+                <button class="desencriptar" onclick="btnDesencriptar()">
+                    Descriptografar
+                </button>
+            </div>
+        </section>
+        
+        <section>
+            <textarea class="mensagem" cols="18" rows="10" placeholder=" Neste campo ficará disponivel a mensagem!"></textarea>
+
+           <div id="div-aparece">
+            <button class="copiar" onclick="copiar()">Copiar</button>
+           </div>
+        </section>
+        
+    </main>
+    <script src="script.js"></script>
+    <footer>
+
+        <p> ©️Copyright Alura 2022</p>
+    </footer>
+</body>
+</html>

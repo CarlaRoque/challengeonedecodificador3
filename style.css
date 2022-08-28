@@ -1,0 +1,121 @@
+.logoalura{
+
+    margin: 15px;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+body {
+    background: linear-gradient(#7daac9, #5990b4cb);
+}
+
+
+main {
+    display: flex;
+    font-size: 32px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    
+} 
+
+
+.input-texto {
+    margin-top: 10px;
+    font-size: 32px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    
+}
+
+.mensagem {
+    
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 80px;
+    border-radius: 5px;
+    border: 2px solid #3d3c3c;
+    
+    
+}
+
+.ponto{
+    width: 40px;
+           
+}
+   
+.informacao {
+       display: inline-block;
+       margin-left: 5px;
+       text-align: left;
+       font-size: 20px;
+       color: #070707;
+       padding: 5px;
+      
+}
+
+.copiar {
+ 
+    margin-top: 20px;
+    margin-left: 205px;
+    border-radius: 10px;
+    background-color: #2d2bb4;
+    color:rgba(214, 211, 211, 0.658);
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.copiar:hover{
+
+    transform: scale(1.1);
+}
+
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+.encriptar {
+    background-color: #2d2bb4;
+    color:rgba(214, 211, 211, 0.658);
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.desencriptar {
+    margin-left: 25px;
+    font-size: 30px;
+    border-radius: 20px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.encriptar:hover{
+
+    transform: scale(1.1);
+    
+    
+}
+
+.desencriptar:hover {
+  
+    transform: scale(1.1);
+    }
+
+footer {
+    font-size: 13px;
+    text-align: center;
+    
+}
